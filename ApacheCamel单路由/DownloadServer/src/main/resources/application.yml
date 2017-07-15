@@ -1,0 +1,24 @@
+
+ftp:
+  host: 10.144.136.104
+  username: cms
+  password: chder@123
+  port: 21
+
+fileMonitor:
+  remoteDir: /CMSFTPServer
+  localDir: /var/alldata
+  checkInterval: 5000
+  monitorList:
+    - fieldId:  "KULUN"
+      daysBefore: 1
+      deviceId: "FJ021"
+      keyWordsList:
+        - "test"
+        - "demo"
+        - "齿轮箱"
+camel:
+  springboot:
+    main-run-controller: true
+server:
+  port: 9080

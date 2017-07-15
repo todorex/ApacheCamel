@@ -1,0 +1,16 @@
+
+ftp:
+  host: 10.144.136.104
+  username: cms
+  password: chder@123
+  port: 21
+  encoding: gb2312
+fileMonitor:
+  remoteDir: /CMSFTPServer
+  localDir: /var/alldata/data/CMSFTPServer
+  checkInterval: 1800000
+camel:
+  springboot:
+    main-run-controller: true
+server:
+  port: 9080
