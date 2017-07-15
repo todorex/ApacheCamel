@@ -1,8 +1,8 @@
 
 ftp:
-  host: 10.144.136.104
-  username: cms
-  password: chder@123
+  host: 127.0.0.1
+  username: test
+  password: 123456
   port: 21
 
 fileMonitor:
@@ -16,7 +16,6 @@ fileMonitor:
       keyWordsList:
         - "test"
         - "demo"
-        - "齿轮箱"
 camel:
   springboot:
     main-run-controller: true
